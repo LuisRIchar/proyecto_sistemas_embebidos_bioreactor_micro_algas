@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "proyecto_micro_algas",
-    "project_version":    "4f38cfb-dirty",
+    "project_version":    "b08c579-dirty",
     "project_path":       "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas",
     "idf_path":           "C:/espressif/esp-idf-v5.5.3",
     "build_dir":          "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build",
@@ -25,8 +25,8 @@
         "COMPONENT_KCONFIGS_PROJBUILD" : "C:/espressif/esp-idf-v5.5.3/components/bootloader/Kconfig.projbuild;C:/espressif/esp-idf-v5.5.3/components/esp_app_format/Kconfig.projbuild;C:/espressif/esp-idf-v5.5.3/components/esp_rom/Kconfig.projbuild;C:/espressif/esp-idf-v5.5.3/components/esptool_py/Kconfig.projbuild;C:/espressif/esp-idf-v5.5.3/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "actuadores", "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_cam", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hal_ieee802154", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espcoredump", "espressif__ds18b20", "espressif__onewire_bus", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nixy4__u8g2", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "touch_element", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores", "C:/espressif/esp-idf-v5.5.3/components/app_trace", "C:/espressif/esp-idf-v5.5.3/components/app_update", "C:/espressif/esp-idf-v5.5.3/components/bootloader", "C:/espressif/esp-idf-v5.5.3/components/bootloader_support", "C:/espressif/esp-idf-v5.5.3/components/bt", "C:/espressif/esp-idf-v5.5.3/components/cmock", "C:/espressif/esp-idf-v5.5.3/components/console", "C:/espressif/esp-idf-v5.5.3/components/cxx", "C:/espressif/esp-idf-v5.5.3/components/driver", "C:/espressif/esp-idf-v5.5.3/components/efuse", "C:/espressif/esp-idf-v5.5.3/components/esp-tls", "C:/espressif/esp-idf-v5.5.3/components/esp_adc", "C:/espressif/esp-idf-v5.5.3/components/esp_app_format", "C:/espressif/esp-idf-v5.5.3/components/esp_bootloader_format", "C:/espressif/esp-idf-v5.5.3/components/esp_coex", "C:/espressif/esp-idf-v5.5.3/components/esp_common", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_ana_cmpr", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_bitscrambler", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_cam", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_dac", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_gpio", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_gptimer", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_i2c", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_i2s", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_isp", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_jpeg", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_ledc", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_mcpwm", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_parlio", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_pcnt", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_ppa", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_rmt", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_sdio", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_sdm", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_sdmmc", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_sdspi", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_spi", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_touch_sens", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_tsens", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_twai", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_uart", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_usb_serial_jtag", "C:/espressif/esp-idf-v5.5.3/components/esp_eth", "C:/espressif/esp-idf-v5.5.3/components/esp_event", "C:/espressif/esp-idf-v5.5.3/components/esp_gdbstub", "C:/espressif/esp-idf-v5.5.3/components/esp_hal_ieee802154", "C:/espressif/esp-idf-v5.5.3/components/esp_hid", "C:/espressif/esp-idf-v5.5.3/components/esp_http_client", "C:/espressif/esp-idf-v5.5.3/components/esp_http_server", "C:/espressif/esp-idf-v5.5.3/components/esp_https_ota", "C:/espressif/esp-idf-v5.5.3/components/esp_https_server", "C:/espressif/esp-idf-v5.5.3/components/esp_hw_support", "C:/espressif/esp-idf-v5.5.3/components/esp_lcd", "C:/espressif/esp-idf-v5.5.3/components/esp_local_ctrl", "C:/espressif/esp-idf-v5.5.3/components/esp_mm", "C:/espressif/esp-idf-v5.5.3/components/esp_netif", "C:/espressif/esp-idf-v5.5.3/components/esp_netif_stack", "C:/espressif/esp-idf-v5.5.3/components/esp_partition", "C:/espressif/esp-idf-v5.5.3/components/esp_phy", "C:/espressif/esp-idf-v5.5.3/components/esp_pm", "C:/espressif/esp-idf-v5.5.3/components/esp_psram", "C:/espressif/esp-idf-v5.5.3/components/esp_ringbuf", "C:/espressif/esp-idf-v5.5.3/components/esp_rom", "C:/espressif/esp-idf-v5.5.3/components/esp_security", "C:/espressif/esp-idf-v5.5.3/components/esp_system", "C:/espressif/esp-idf-v5.5.3/components/esp_timer", "C:/espressif/esp-idf-v5.5.3/components/esp_vfs_console", "C:/espressif/esp-idf-v5.5.3/components/esp_wifi", "C:/espressif/esp-idf-v5.5.3/components/espcoredump", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/espressif__ds18b20", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/espressif__onewire_bus", "C:/espressif/esp-idf-v5.5.3/components/esptool_py", "C:/espressif/esp-idf-v5.5.3/components/fatfs", "C:/espressif/esp-idf-v5.5.3/components/freertos", "C:/espressif/esp-idf-v5.5.3/components/hal", "C:/espressif/esp-idf-v5.5.3/components/heap", "C:/espressif/esp-idf-v5.5.3/components/http_parser", "C:/espressif/esp-idf-v5.5.3/components/idf_test", "C:/espressif/esp-idf-v5.5.3/components/ieee802154", "C:/espressif/esp-idf-v5.5.3/components/json", "C:/espressif/esp-idf-v5.5.3/components/log", "C:/espressif/esp-idf-v5.5.3/components/lwip", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/main", "C:/espressif/esp-idf-v5.5.3/components/mbedtls", "C:/espressif/esp-idf-v5.5.3/components/mqtt", "C:/espressif/esp-idf-v5.5.3/components/newlib", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/nixy4__u8g2", "C:/espressif/esp-idf-v5.5.3/components/nvs_flash", "C:/espressif/esp-idf-v5.5.3/components/nvs_sec_provider", "C:/espressif/esp-idf-v5.5.3/components/openthread", "C:/espressif/esp-idf-v5.5.3/components/partition_table", "C:/espressif/esp-idf-v5.5.3/components/perfmon", "C:/espressif/esp-idf-v5.5.3/components/protobuf-c", "C:/espressif/esp-idf-v5.5.3/components/protocomm", "C:/espressif/esp-idf-v5.5.3/components/pthread", "C:/espressif/esp-idf-v5.5.3/components/rt", "C:/espressif/esp-idf-v5.5.3/components/sdmmc", "C:/espressif/esp-idf-v5.5.3/components/soc", "C:/espressif/esp-idf-v5.5.3/components/spi_flash", "C:/espressif/esp-idf-v5.5.3/components/spiffs", "C:/espressif/esp-idf-v5.5.3/components/tcp_transport", "C:/espressif/esp-idf-v5.5.3/components/touch_element", "C:/espressif/esp-idf-v5.5.3/components/ulp", "C:/espressif/esp-idf-v5.5.3/components/unity", "C:/espressif/esp-idf-v5.5.3/components/usb", "C:/espressif/esp-idf-v5.5.3/components/vfs", "C:/espressif/esp-idf-v5.5.3/components/wear_levelling", "C:/espressif/esp-idf-v5.5.3/components/wifi_provisioning", "C:/espressif/esp-idf-v5.5.3/components/wpa_supplicant", "C:/espressif/esp-idf-v5.5.3/components/xtensa", "" ],
+    "build_components" : [ "actuadores", "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_cam", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hal_ieee802154", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espcoredump", "espressif__bh1750", "espressif__ds18b20", "espressif__onewire_bus", "esptool_py", "fatfs", "freertos", "gestor", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nixy4__u8g2", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "sensores", "soc", "spi_flash", "spiffs", "tcp_transport", "touch_element", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores", "C:/espressif/esp-idf-v5.5.3/components/app_trace", "C:/espressif/esp-idf-v5.5.3/components/app_update", "C:/espressif/esp-idf-v5.5.3/components/bootloader", "C:/espressif/esp-idf-v5.5.3/components/bootloader_support", "C:/espressif/esp-idf-v5.5.3/components/bt", "C:/espressif/esp-idf-v5.5.3/components/cmock", "C:/espressif/esp-idf-v5.5.3/components/console", "C:/espressif/esp-idf-v5.5.3/components/cxx", "C:/espressif/esp-idf-v5.5.3/components/driver", "C:/espressif/esp-idf-v5.5.3/components/efuse", "C:/espressif/esp-idf-v5.5.3/components/esp-tls", "C:/espressif/esp-idf-v5.5.3/components/esp_adc", "C:/espressif/esp-idf-v5.5.3/components/esp_app_format", "C:/espressif/esp-idf-v5.5.3/components/esp_bootloader_format", "C:/espressif/esp-idf-v5.5.3/components/esp_coex", "C:/espressif/esp-idf-v5.5.3/components/esp_common", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_ana_cmpr", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_bitscrambler", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_cam", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_dac", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_gpio", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_gptimer", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_i2c", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_i2s", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_isp", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_jpeg", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_ledc", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_mcpwm", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_parlio", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_pcnt", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_ppa", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_rmt", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_sdio", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_sdm", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_sdmmc", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_sdspi", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_spi", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_touch_sens", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_tsens", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_twai", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_uart", "C:/espressif/esp-idf-v5.5.3/components/esp_driver_usb_serial_jtag", "C:/espressif/esp-idf-v5.5.3/components/esp_eth", "C:/espressif/esp-idf-v5.5.3/components/esp_event", "C:/espressif/esp-idf-v5.5.3/components/esp_gdbstub", "C:/espressif/esp-idf-v5.5.3/components/esp_hal_ieee802154", "C:/espressif/esp-idf-v5.5.3/components/esp_hid", "C:/espressif/esp-idf-v5.5.3/components/esp_http_client", "C:/espressif/esp-idf-v5.5.3/components/esp_http_server", "C:/espressif/esp-idf-v5.5.3/components/esp_https_ota", "C:/espressif/esp-idf-v5.5.3/components/esp_https_server", "C:/espressif/esp-idf-v5.5.3/components/esp_hw_support", "C:/espressif/esp-idf-v5.5.3/components/esp_lcd", "C:/espressif/esp-idf-v5.5.3/components/esp_local_ctrl", "C:/espressif/esp-idf-v5.5.3/components/esp_mm", "C:/espressif/esp-idf-v5.5.3/components/esp_netif", "C:/espressif/esp-idf-v5.5.3/components/esp_netif_stack", "C:/espressif/esp-idf-v5.5.3/components/esp_partition", "C:/espressif/esp-idf-v5.5.3/components/esp_phy", "C:/espressif/esp-idf-v5.5.3/components/esp_pm", "C:/espressif/esp-idf-v5.5.3/components/esp_psram", "C:/espressif/esp-idf-v5.5.3/components/esp_ringbuf", "C:/espressif/esp-idf-v5.5.3/components/esp_rom", "C:/espressif/esp-idf-v5.5.3/components/esp_security", "C:/espressif/esp-idf-v5.5.3/components/esp_system", "C:/espressif/esp-idf-v5.5.3/components/esp_timer", "C:/espressif/esp-idf-v5.5.3/components/esp_vfs_console", "C:/espressif/esp-idf-v5.5.3/components/esp_wifi", "C:/espressif/esp-idf-v5.5.3/components/espcoredump", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/espressif__bh1750", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/espressif__ds18b20", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/espressif__onewire_bus", "C:/espressif/esp-idf-v5.5.3/components/esptool_py", "C:/espressif/esp-idf-v5.5.3/components/fatfs", "C:/espressif/esp-idf-v5.5.3/components/freertos", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor", "C:/espressif/esp-idf-v5.5.3/components/hal", "C:/espressif/esp-idf-v5.5.3/components/heap", "C:/espressif/esp-idf-v5.5.3/components/http_parser", "C:/espressif/esp-idf-v5.5.3/components/idf_test", "C:/espressif/esp-idf-v5.5.3/components/ieee802154", "C:/espressif/esp-idf-v5.5.3/components/json", "C:/espressif/esp-idf-v5.5.3/components/log", "C:/espressif/esp-idf-v5.5.3/components/lwip", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/main", "C:/espressif/esp-idf-v5.5.3/components/mbedtls", "C:/espressif/esp-idf-v5.5.3/components/mqtt", "C:/espressif/esp-idf-v5.5.3/components/newlib", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/nixy4__u8g2", "C:/espressif/esp-idf-v5.5.3/components/nvs_flash", "C:/espressif/esp-idf-v5.5.3/components/nvs_sec_provider", "C:/espressif/esp-idf-v5.5.3/components/openthread", "C:/espressif/esp-idf-v5.5.3/components/partition_table", "C:/espressif/esp-idf-v5.5.3/components/perfmon", "C:/espressif/esp-idf-v5.5.3/components/protobuf-c", "C:/espressif/esp-idf-v5.5.3/components/protocomm", "C:/espressif/esp-idf-v5.5.3/components/pthread", "C:/espressif/esp-idf-v5.5.3/components/rt", "C:/espressif/esp-idf-v5.5.3/components/sdmmc", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores", "C:/espressif/esp-idf-v5.5.3/components/soc", "C:/espressif/esp-idf-v5.5.3/components/spi_flash", "C:/espressif/esp-idf-v5.5.3/components/spiffs", "C:/espressif/esp-idf-v5.5.3/components/tcp_transport", "C:/espressif/esp-idf-v5.5.3/components/touch_element", "C:/espressif/esp-idf-v5.5.3/components/ulp", "C:/espressif/esp-idf-v5.5.3/components/unity", "C:/espressif/esp-idf-v5.5.3/components/usb", "C:/espressif/esp-idf-v5.5.3/components/vfs", "C:/espressif/esp-idf-v5.5.3/components/wear_levelling", "C:/espressif/esp-idf-v5.5.3/components/wifi_provisioning", "C:/espressif/esp-idf-v5.5.3/components/wpa_supplicant", "C:/espressif/esp-idf-v5.5.3/components/xtensa", "" ],
     "build_component_info" : {
         "actuadores": {
             "alias": "idf::actuadores",
@@ -35,7 +35,7 @@
             "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores",
             "type": "LIBRARY",
             "lib": "__idf_actuadores",
-            "reqs": [ "nixy4__u8g2" ],
+            "reqs": [ "nixy4__u8g2", "gestor" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
@@ -1078,6 +1078,21 @@
             "sources": [ "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/core_dump_init.c", "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/core_dump_common.c", "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/core_dump_flash.c", "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/core_dump_uart.c", "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/core_dump_elf.c", "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/core_dump_binary.c", "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/core_dump_sha.c", "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/core_dump_crc.c", "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/port/xtensa/core_dump_port.c", "C:/espressif/esp-idf-v5.5.3/components/espcoredump/src/port/xtensa/core_dump_stack_switch.S" ],
             "include_dirs": [ "include", "include/port/xtensa" ]
         },
+        "espressif__bh1750": {
+            "alias": "idf::espressif__bh1750",
+            "target": "___idf_espressif__bh1750",
+            "prefix": "idf",
+            "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/espressif__bh1750",
+            "type": "LIBRARY",
+            "lib": "__idf_espressif__bh1750",
+            "reqs": [ "esp_driver_i2c" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/libespressif__bh1750.a",
+            "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/espressif__bh1750/bh1750.c" ],
+            "include_dirs": [ "include" ]
+        },
         "espressif__ds18b20": {
             "alias": "idf::espressif__ds18b20",
             "target": "___idf_espressif__ds18b20",
@@ -1152,6 +1167,21 @@
             "file": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/freertos/libfreertos.a",
             "sources": [ "C:/espressif/esp-idf-v5.5.3/components/freertos/heap_idf.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/app_startup.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/port_common.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/port_systick.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/list.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/queue.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/tasks.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/timers.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/event_groups.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/esp_additions/freertos_compatibility.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/esp_additions/idf_additions_event_groups.c", "C:/espressif/esp-idf-v5.5.3/components/freertos/esp_additions/idf_additions.c" ],
             "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]
+        },
+        "gestor": {
+            "alias": "idf::gestor",
+            "target": "___idf_gestor",
+            "prefix": "idf",
+            "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor",
+            "type": "LIBRARY",
+            "lib": "__idf_gestor",
+            "reqs": [],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/gestor/libgestor.a",
+            "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor/gestor_datos.c" ],
+            "include_dirs": [ "." ]
         },
         "hal": {
             "alias": "idf::hal",
@@ -1280,10 +1310,10 @@
             "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [ "actuadores" ],
-            "priv_reqs": [ "espressif__ds18b20", "espressif__onewire_bus", "nixy4__u8g2" ],
+            "reqs": [ "actuadores", "sensores", "gestor" ],
+            "priv_reqs": [ "espressif__bh1750", "espressif__ds18b20", "espressif__onewire_bus", "nixy4__u8g2" ],
             "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__ds18b20", "espressif__onewire_bus", "nixy4__u8g2" ],
+            "managed_priv_reqs": [ "espressif__bh1750", "espressif__ds18b20", "espressif__onewire_bus", "nixy4__u8g2" ],
             "file": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/main/libmain.a",
             "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/main/main.c" ],
             "include_dirs": [ "." ]
@@ -1497,6 +1527,21 @@
             "file": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sdmmc/libsdmmc.a",
             "sources": [ "C:/espressif/esp-idf-v5.5.3/components/sdmmc/sdmmc_cmd.c", "C:/espressif/esp-idf-v5.5.3/components/sdmmc/sdmmc_common.c", "C:/espressif/esp-idf-v5.5.3/components/sdmmc/sdmmc_init.c", "C:/espressif/esp-idf-v5.5.3/components/sdmmc/sdmmc_io.c", "C:/espressif/esp-idf-v5.5.3/components/sdmmc/sdmmc_mmc.c", "C:/espressif/esp-idf-v5.5.3/components/sdmmc/sdmmc_sd.c", "C:/espressif/esp-idf-v5.5.3/components/sdmmc/sd_pwr_ctrl/sd_pwr_ctrl.c" ],
             "include_dirs": [ "include" ]
+        },
+        "sensores": {
+            "alias": "idf::sensores",
+            "target": "___idf_sensores",
+            "prefix": "idf",
+            "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores",
+            "type": "LIBRARY",
+            "lib": "__idf_sensores",
+            "reqs": [ "driver", "gestor" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/libsensores.a",
+            "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores/turbidez.c" ],
+            "include_dirs": [ "." ]
         },
         "soc": {
             "alias": "idf::soc",
@@ -3009,10 +3054,10 @@
             "prefix": "idf",
             "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/main",
             "lib": "__idf_main",
-            "reqs": [ "actuadores" ],
-            "priv_reqs": [ "espressif__ds18b20", "espressif__onewire_bus", "nixy4__u8g2" ],
+            "reqs": [ "actuadores", "sensores", "gestor" ],
+            "priv_reqs": [ "espressif__bh1750", "espressif__ds18b20", "espressif__onewire_bus", "nixy4__u8g2" ],
             "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__ds18b20", "espressif__onewire_bus", "nixy4__u8g2" ],
+            "managed_priv_reqs": [ "espressif__bh1750", "espressif__ds18b20", "espressif__onewire_bus", "nixy4__u8g2" ],
             "include_dirs": [ "." ]
         },
         "actuadores": {
@@ -3021,11 +3066,47 @@
             "prefix": "idf",
             "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores",
             "lib": "__idf_actuadores",
-            "reqs": [ "nixy4__u8g2" ],
+            "reqs": [ "nixy4__u8g2", "gestor" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "." ]
+        },
+        "sensores": {
+            "alias": "idf::sensores",
+            "target": "___idf_sensores",
+            "prefix": "idf",
+            "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores",
+            "lib": "__idf_sensores",
+            "reqs": [ "driver", "gestor" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "." ]
+        },
+        "gestor": {
+            "alias": "idf::gestor",
+            "target": "___idf_gestor",
+            "prefix": "idf",
+            "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor",
+            "lib": "__idf_gestor",
+            "reqs": [],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "." ]
+        },
+        "espressif__bh1750": {
+            "alias": "idf::espressif__bh1750",
+            "target": "___idf_espressif__bh1750",
+            "prefix": "idf",
+            "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/managed_components/espressif__bh1750",
+            "lib": "__idf_espressif__bh1750",
+            "reqs": [ "esp_driver_i2c" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
         },
         "espressif__ds18b20": {
             "alias": "idf::espressif__ds18b20",

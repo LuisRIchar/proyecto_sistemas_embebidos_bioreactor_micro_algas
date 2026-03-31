@@ -16,3 +16,6 @@ idf.py add-dependency "nixy4/u8g2^0.1.0"
 #sensor de temperatura
 idf.py add-dependency "espressif/onewire_bus"
 idf.py add-dependency "espressif/ds18b20"
+
+#Sensor de luz
+idf.py add-dependency "espressif/bh1750^2.0.0"

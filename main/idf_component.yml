@@ -17,3 +17,4 @@ dependencies:
   nixy4/u8g2: ^0.1.0
   espressif/onewire_bus: '*'
   espressif/ds18b20: '*'
+  espressif/bh1750: ^2.0.0

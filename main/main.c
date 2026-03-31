@@ -17,13 +17,20 @@
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "driver/adc.h"
+#include "driver/gpio.h"
 
 //librerias externas
 #include "pantalla_oled.h"
+#include "turbidez.h"
+#include "gestor_datos.h"
 
 void app_main(void){
 
+    Init_gestor_datos();
+
     Init_pantalla(11,12);
+    Init_sensor_turbidez(ADC1_CHANNEL_1);
 
     while (1){
         vTaskDelay(portMAX_DELAY);
