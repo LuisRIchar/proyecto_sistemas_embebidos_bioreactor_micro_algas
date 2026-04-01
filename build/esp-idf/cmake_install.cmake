@@ -589,17 +589,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__onewire_bus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__ds18b20/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

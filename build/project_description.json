@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "proyecto_micro_algas",
-    "project_version":    "8f6b2ea-dirty",
+    "project_version":    "f40cacc-dirty",
     "project_path":       "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas",
     "idf_path":           "C:/espressif/esp-idf-v5.5.3",
     "build_dir":          "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build",
@@ -1535,12 +1535,12 @@
             "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores",
             "type": "LIBRARY",
             "lib": "__idf_sensores",
-            "reqs": [ "driver", "gestor", "espressif__bh1750" ],
+            "reqs": [ "driver", "gestor", "espressif__bh1750", "espressif__ds18b20", "espressif__onewire_bus" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/libsensores.a",
-            "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores/turbidez.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores/bh1750_luz.c" ],
+            "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores/turbidez.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores/bh1750_luz.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores/DS18B20_temp.c" ],
             "include_dirs": [ "." ]
         },
         "soc": {
@@ -3078,7 +3078,7 @@
             "prefix": "idf",
             "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/sensores",
             "lib": "__idf_sensores",
-            "reqs": [ "driver", "gestor", "espressif__bh1750" ],
+            "reqs": [ "driver", "gestor", "espressif__bh1750", "espressif__ds18b20", "espressif__onewire_bus" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],

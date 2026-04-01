@@ -26,6 +26,7 @@
 #include "gestor_datos.h"
 #include "bh1750_luz.h"
 #include "i2c_bus_compartido.h"
+#include "ds18b20_temp.h"
 
 void app_main(void){
 
@@ -35,6 +36,7 @@ void app_main(void){
     Init_pantalla(11,12,5);
     Init_sensor_luz(11,12);
     Init_sensor_turbidez(ADC1_CHANNEL_1);
+    Init_sensor_temp(6);
 
     while (1){
         vTaskDelay(portMAX_DELAY);

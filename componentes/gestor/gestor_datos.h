@@ -28,8 +28,15 @@ typedef struct{
     SemaphoreHandle_t lux_mutex;
 }datos_lux_t;
 
+typedef struct{
+    float val_temp;
+    SemaphoreHandle_t temp_mutex;
+}datos_temp_t;
+
  float get_turbidez(void);
  void set_turbidez(float ntu);
  float get_lux(void);
  void set_lux(float lux);
+ float get_temp(void);
+ void set_temp(float temperatura_sensor);
  void Init_gestor_datos(void);

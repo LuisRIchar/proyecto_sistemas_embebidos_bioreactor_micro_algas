@@ -21,6 +21,7 @@
 
 static datos_turbidez_t turbidez;
 static datos_lux_t lux_datos;
+static datos_temp_t temp_datos;
 
 float get_turbidez(void){
 
@@ -49,9 +50,24 @@ void set_turbidez(float ntu){
     xSemaphoreGive(lux_datos.lux_mutex);
  }
 
+float get_temp(void){
+    xSemaphoreTake(temp_datos.temp_mutex,portMAX_DELAY);
+    float tem = temp_datos.val_temp;
+    xSemaphoreGive(temp_datos.temp_mutex);
+    return tem;
+}
+
+void set_temp(float temperatura_sensor){
+    xSemaphoreTake(temp_datos.temp_mutex,portMAX_DELAY);
+    temp_datos.val_temp = temperatura_sensor;
+    xSemaphoreGive(temp_datos.temp_mutex);
+}
+
+
 
 void Init_gestor_datos(void){
 
     turbidez.turbidez_mutex = xSemaphoreCreateMutex();
     lux_datos.lux_mutex = xSemaphoreCreateMutex();
+    temp_datos.temp_mutex =xSemaphoreCreateMutex();
 }
