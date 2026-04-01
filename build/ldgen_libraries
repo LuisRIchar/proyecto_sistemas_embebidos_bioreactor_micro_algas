@@ -166,6 +166,7 @@ C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/bui
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/actuadores/libactuadores.a
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/nixy4__u8g2/libnixy4__u8g2.a
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/gestor/libgestor.a
+C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/libespressif__bh1750.a
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/libsensores.a
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/libespressif__bh1750.a
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__onewire_bus/libespressif__onewire_bus.a
@@ -174,5 +175,4 @@ C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/bui
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/main/libmain.a
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/actuadores/libactuadores.a
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/libsensores.a
-C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/libespressif__bh1750.a
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__ds18b20/libespressif__ds18b20.a

@@ -17,6 +17,10 @@
 #ifndef PANTALLA_OLED_H
 #define PANTALLA_OLED_H
 
+#include "stdint.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
+
 #define ADDR_PANTALLA 0x3c<<1 //Pantalla ssd1306
 
 typedef struct {
@@ -24,6 +28,12 @@ typedef struct {
     uint8_t SCK;
 }i2c_pantalla_t;
 
+typedef struct {
+    uint8_t btn_pin;
+    SemaphoreHandle_t binary_semaphore;
+}btn_irs_t;
+
 void pantalla_principal(void* pv);
-void Init_pantalla(uint8_t sda,uint8_t sck);
+void Init_pantalla(uint8_t sda,uint8_t sck,uint8_t btn_gpio);
+
 #endif

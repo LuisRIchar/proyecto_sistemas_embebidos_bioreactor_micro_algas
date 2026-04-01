@@ -1,5 +1,5 @@
 idf_component_register(
-    SRCS "turbidez.c"
+    SRCS "turbidez.c" "bh1750_luz.c"
     INCLUDE_DIRS "."
-    REQUIRES driver gestor
+    REQUIRES driver gestor bh1750
 )

@@ -883,13 +883,6 @@ C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/bui
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/actuadores/CMakeFiles/install.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/actuadores/CMakeFiles/install/local.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/actuadores/CMakeFiles/install/strip.dir
-C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/__idf_sensores.dir
-C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/edit_cache.dir
-C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/rebuild_cache.dir
-C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/list_install_components.dir
-C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/install.dir
-C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/install/local.dir
-C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/install/strip.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/CMakeFiles/__idf_espressif__bh1750.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/CMakeFiles/edit_cache.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/CMakeFiles/rebuild_cache.dir
@@ -897,6 +890,13 @@ C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/bui
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/CMakeFiles/install.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/CMakeFiles/install/local.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__bh1750/CMakeFiles/install/strip.dir
+C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/__idf_sensores.dir
+C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/edit_cache.dir
+C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/rebuild_cache.dir
+C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/list_install_components.dir
+C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/install.dir
+C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/install/local.dir
+C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/sensores/CMakeFiles/install/strip.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__onewire_bus/CMakeFiles/__idf_espressif__onewire_bus.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__onewire_bus/CMakeFiles/edit_cache.dir
 C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/espressif__onewire_bus/CMakeFiles/rebuild_cache.dir

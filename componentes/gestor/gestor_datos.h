@@ -15,6 +15,21 @@
  */
 #pragma once
 
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
+
+typedef struct{
+    float ntu;
+    SemaphoreHandle_t turbidez_mutex;
+}datos_turbidez_t;
+
+typedef struct{
+    float lux;
+    SemaphoreHandle_t lux_mutex;
+}datos_lux_t;
+
  float get_turbidez(void);
  void set_turbidez(float ntu);
+ float get_lux(void);
+ void set_lux(float lux);
  void Init_gestor_datos(void);

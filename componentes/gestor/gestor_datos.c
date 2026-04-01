@@ -19,13 +19,8 @@
 #include "freertos/semphr.h"
 #include "freertos/task.h"
 
-typedef struct{
-    float ntu;
-    SemaphoreHandle_t turbidez_mutex;
-
-}datos_turbidez_t;
-
 static datos_turbidez_t turbidez;
+static datos_lux_t lux_datos;
 
 float get_turbidez(void){
 
@@ -41,7 +36,22 @@ void set_turbidez(float ntu){
     xSemaphoreGive(turbidez.turbidez_mutex);
 }
 
+ float get_lux(void){
+    xSemaphoreTake(lux_datos.lux_mutex,portMAX_DELAY);
+    float luz = lux_datos.lux;
+    xSemaphoreGive(lux_datos.lux_mutex);
+    return luz;
+ } 
+
+ void set_lux(float lux){
+    xSemaphoreTake(lux_datos.lux_mutex,portMAX_DELAY);
+    lux_datos.lux = lux;
+    xSemaphoreGive(lux_datos.lux_mutex);
+ }
+
+
 void Init_gestor_datos(void){
 
     turbidez.turbidez_mutex = xSemaphoreCreateMutex();
+    lux_datos.lux_mutex = xSemaphoreCreateMutex();
 }

@@ -24,12 +24,16 @@
 #include "pantalla_oled.h"
 #include "turbidez.h"
 #include "gestor_datos.h"
+#include "bh1750_luz.h"
+#include "i2c_bus_compartido.h"
 
 void app_main(void){
 
     Init_gestor_datos();
+    i2c_bus_init(11, 12);  
 
-    Init_pantalla(11,12);
+    Init_pantalla(11,12,5);
+    Init_sensor_luz(11,12);
     Init_sensor_turbidez(ADC1_CHANNEL_1);
 
     while (1){

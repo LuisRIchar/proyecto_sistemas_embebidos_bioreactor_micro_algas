@@ -69,5 +69,5 @@ void Init_sensor_turbidez(adc1_channel_t gpio){
     adc1_config_width(ADC_WIDTH_BIT_12);//4096
     adc1_config_channel_atten(turbidez_pin.pin,ADC_ATTEN_DB_12);
 
-    xTaskCreatePinnedToCore(sensor_turbidez,"sensor_turbidez",5000,&turbidez_pin,1,NULL,1);
+    xTaskCreatePinnedToCore(sensor_turbidez,"sensor_turbidez",5000,&turbidez_pin,2,NULL,1);
 }
