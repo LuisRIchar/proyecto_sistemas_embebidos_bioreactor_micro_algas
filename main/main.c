@@ -27,6 +27,8 @@
 #include "bh1750_luz.h"
 #include "i2c_bus_compartido.h"
 #include "ds18b20_temp.h"
+#include "calentador_relay.h"
+#include "tira_led_roja.h"
 
 void app_main(void){
 
@@ -37,6 +39,8 @@ void app_main(void){
     Init_sensor_luz(11,12);
     Init_sensor_turbidez(ADC1_CHANNEL_1);
     Init_sensor_temp(6);
+    Init_relay_calentador(7);
+    Init_tira_led(13);
 
     while (1){
         vTaskDelay(portMAX_DELAY);

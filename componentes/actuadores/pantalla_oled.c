@@ -235,5 +235,5 @@ void Init_pantalla(uint8_t sda,uint8_t sck,uint8_t btn_gpio){
     oled.SCK = sck;
     oled.SDA = sda;
 
-    xTaskCreatePinnedToCore(pantalla_principal,"oled_pantalla",8192,&oled,1,NULL,0);
+    xTaskCreatePinnedToCore(pantalla_principal,"oled_pantalla",8192,&oled,1,NULL,1);
 }

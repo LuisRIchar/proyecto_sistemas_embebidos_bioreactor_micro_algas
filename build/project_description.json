@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "proyecto_micro_algas",
-    "project_version":    "f40cacc-dirty",
+    "project_version":    "3cc621a-dirty",
     "project_path":       "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas",
     "idf_path":           "C:/espressif/esp-idf-v5.5.3",
     "build_dir":          "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build",
@@ -40,7 +40,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/actuadores/libactuadores.a",
-            "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores/pantalla_oled.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores/u8g2_esp32_hal.c" ],
+            "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores/pantalla_oled.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores/u8g2_esp32_hal.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores/calentador_relay.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/actuadores/tira_led_roja.c" ],
             "include_dirs": [ "." ]
         },
         "app_trace": {
