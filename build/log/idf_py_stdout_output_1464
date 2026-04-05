@@ -1,0 +1,1362 @@
+Command: C:\Users\luisd\.espressif\python_env\idf5.5_py3.13_env\Scripts\python.exe C:\espressif\esp-idf-v5.5.3\tools/idf_monitor.py -p COM4 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 C:\Personal\Codes\Code\C\esp-idf\EmbeddedSystemsRobotin\proyecto_micro_algas\build\proyecto_micro_algas.elf C:\Personal\Codes\Code\C\esp-idf\EmbeddedSystemsRobotin\proyecto_micro_algas\build\bootloader\bootloader.elf --force-color -m 'C:\Users\luisd\.espressif\python_env\idf5.5_py3.13_env\Scripts\python.exe' 'C:\espressif\esp-idf-v5.5.3\tools\idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048e22
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2ef0
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.3-dirty 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Mar 23 2026 20:56:51[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (28) boot: efuse block revision: v1.3[0m
+[0;32mI (32) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (35) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=232e4h (144100) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=0003330c vaddr=3fc9c300 size=051fch ( 20988) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=00038510 vaddr=40374000 size=07b08h ( 31496) load[0m
+[0;32mI (124) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=aa1c0h (696768) map[0m
+[0;32mI (247) esp_image: segment 4: paddr=000ea1e8 vaddr=4037bb08 size=10724h ( 67364) load[0m
+[0;32mI (262) esp_image: segment 5: paddr=000fa914 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (272) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (272) boot: Disabling RNG early entropy source...[0m
+[0;32mI (282) cpu_start: Multicore app[0m
+[0;32mI (291) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (292) cpu_start: Pro cpu start user code[0m
+[0;32mI (292) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (293) app_init: Application information:[0m
+[0;32mI (297) app_init: Project name:     proyecto_micro_algas[0m
+[0;32mI (302) app_init: App version:      8eced2e-dirty[0m
+[0;32mI (306) app_init: Compile time:     Apr  1 2026 20:27:45[0m
+[0;32mI (312) app_init: ELF file SHA256:  9395f89a4...[0m
+[0;32mI (316) app_init: ESP-IDF:          v5.5.3-dirty[0m
+[0;32mI (320) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (324) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (328) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (332) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (338) heap_init: At 3FCA5E60 len 000438B0 (270 KiB): RAM[0m
+[0;32mI (343) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (348) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (354) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (360) spi_flash: detected chip: gd[0m
+[0;32mI (362) spi_flash: flash io: dio[0m
+[0;33mW (365) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (378) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (385) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (391) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (398) main_task: Started on CPU0[0m
+[0;32mI (408) main_task: Calling app_main()[0m
+[0;32mI (408) Cleinte_mqtt: Iniciando cliente mqtt[0m
+[0;32mI (428) pp: pp rom version: e7ae62f[0m
+[0;32mI (428) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (438) wifi:wifi driver task: 3fceda80, prio:23, stack:6656, core=0[0m
+[0;32mI (448) wifi:wifi firmware version: 4df78f2[0m
+[0;32mI (448) wifi:wifi certification version: v7.0[0m
+[0;32mI (448) wifi:config NVS flash: enabled[0m
+[0;32mI (448) wifi:config nano formatting: disabled[0m
+[0;32mI (448) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (458) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (458) wifi:Init management short buffer num: 32[0m
+[0;32mI (468) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (468) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (468) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (478) wifi:Init static rx buffer num: 10[0m
+[0;32mI (478) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (488) wifi_init: rx ba win: 6[0m
+[0;32mI (488) wifi_init: accept mbox: 6[0m
+[0;32mI (488) wifi_init: tcpip mbox: 32[0m
+[0;32mI (488) wifi_init: udp mbox: 6[0m
+[0;32mI (498) wifi_init: tcp mbox: 6[0m
+[0;32mI (498) wifi_init: tcp tx win: 5760[0m
+[0;32mI (498) wifi_init: tcp rx win: 5760[0m
+[0;32mI (508) wifi_init: tcp mss: 1440[0m
+[0;32mI (508) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (508) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (518) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (528) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (568) wifi:mode : sta (3c:84:27:c2:4f:e0)[0m
+[0;32mI (568) wifi:enable tsf[0m
+[0;32mI (578) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (588) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (588) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (588) wifi:state: assoc -> init (0x2a0)[0m
+[0;32mI (598) wifi:new:<2,0>, old:<2,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (598) Cleinte_mqtt: Sin wifi, tratando de reconectar[0m
+[0;33mW (3008) Cleinte_mqtt: Sin wifi, tratando de reconectar[0m
+[0;32mI (3018) wifi:new:<2,0>, old:<2,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (3018) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3028) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3038) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3058) wifi:connected with ThExecutorsServices, aid = 60, channel 2, BW20, bssid = 1c:ae:cb:6d:5a:d8[0m
+[0;32mI (3058) wifi:security: WPA2-PSK, phy: bgn, rssi: -68[0m
+[0;32mI (3068) wifi:pm start, type: 1[0m
+
+[0;32mI (3068) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3078) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (3078) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[1;31mE (5568) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[1;31mE (5568) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (5568) mqtt_client: Error transport connect[0m
+[0;32mI (5568) Pantalla_oled: Panalla oled iniciada[0m
+[0;32mI (5578) Sensor_de_luz: Sensor de luz iniciado[0m
+
+[0;32mI (5578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+[0;32mI (5588) sensor_temperatura: Sensor de temperatura inicializado[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (5588) Relay_calentador: logica relay inicializado[0m
+[0;32mI (5598) Logica_led: Logica de la tira led iniciada![0m
+[0;32mI (6078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (6358) esp_netif_handlers: sta ip: 192.168.100.112, mask: 255.255.255.0, gw: 192.168.100.1[0m
+[0;32mI (6358) Cleinte_mqtt: Ip obtenida: 192.168.100.112[0m
+[0;32mI (6518) sensor_temperatura: Temperatura: 18.38[0m
+[0;32mI (6578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (7078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (7578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (7638) sensor_temperatura: Temperatura: 18.38[0m
+[0;32mI (8078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (8578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (8748) sensor_temperatura: Temperatura: 18.31[0m
+[0;32mI (9078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (9578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (9868) sensor_temperatura: Temperatura: 18.38[0m
+[0;32mI (10078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (10568) Cleinte_mqtt: datos enviados al servidor mqtt: 9.17 luz,18.38 temperatura,0.00 turbidez[0m
+[0;32mI (10578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (10988) sensor_temperatura: Temperatura: 18.31[0m
+[0;32mI (11078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (11578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (12078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (12108) sensor_temperatura: Temperatura: 18.31[0m
+[0;32mI (12578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (13078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (13228) sensor_temperatura: Temperatura: 18.31[0m
+[0;32mI (13518) wifi:[ADDBA]RX DELBA, reason:39, delete tid:0, initiator:1(originator)[0m
+[0;32mI (13538) wifi:<ba-add>idx:0 (ifx:0, 1c:ae:cb:6d:5a:d8), tid:0, ssn:5, winSize:64[0m
+[0;32mI (13578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (14078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (14348) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (14578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (15078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (15468) sensor_temperatura: Temperatura: 18.31[0m
+[0;32mI (15568) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,18.31 temperatura,0.00 turbidez[0m
+[0;32mI (15578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (16078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (16578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+[0;32mI (16578) sensor_temperatura: Temperatura: 18.25[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (17078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (17578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (17698) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (18078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.55 | NTU: 0.00
+[0;32mI (18578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (18818) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (19078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (19578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (19938) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (20078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (20578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.47 | NTU: 0.00
+[1;31mE (20608) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (20608) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (20608) mqtt_client: Error transport connect[0m
+[0;32mI (20608) Cleinte_mqtt: datos enviados al servidor mqtt: 9.17 luz,18.25 temperatura,0.00 turbidez[0m
+[0;32mI (21058) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (21078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (21578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (22078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (22178) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (22578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (23078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (23298) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (23578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (24078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (24408) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (24578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (25078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.93 | V_Real: 4.42 | NTU: 0.00
+[0;32mI (25528) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (25578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (25618) Cleinte_mqtt: datos enviados al servidor mqtt: 9.17 luz,18.25 temperatura,0.00 turbidez[0m
+[0;32mI (26078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (26238) wifi:<ba-del>idx:0, tid:0[0m
+[0;32mI (26248) wifi:<ba-add>idx:0 (ifx:0, 1c:ae:cb:6d:5a:d8), tid:0, ssn:13, winSize:64[0m
+[0;32mI (26578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (26648) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (27078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (27578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (27768) sensor_temperatura: Temperatura: 18.19[0m
+[0;32mI (28078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (28578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (28888) sensor_temperatura: Temperatura: 18.25[0m
+[0;32mI (29078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (29578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (30008) sensor_temperatura: Temperatura: 18.19[0m
+[0;32mI (30078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (30578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (30618) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,18.19 temperatura,0.00 turbidez[0m
+[0;32mI (31078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (31128) sensor_temperatura: Temperatura: 18.19[0m
+[0;32mI (31578) Sensor_de_luz: Luz recibida: 11.67 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (32078) Sensor_de_luz: Luz recibida: 11.67 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (32248) sensor_temperatura: Temperatura: 18.19[0m
+[0;32mI (32578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (33078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (33358) sensor_temperatura: Temperatura: 18.19[0m
+[0;32mI (33578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (34078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.47 | NTU: 0.00
+[0;32mI (34478) sensor_temperatura: Temperatura: 18.19[0m
+[0;32mI (34578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (35078) Sensor_de_luz: Luz recibida: 11.67 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (35578) Sensor_de_luz: Luz recibida: 11.67 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (35598) sensor_temperatura: Temperatura: 18.19[0m
+[1;31mE (35608) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (35608) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (35608) mqtt_client: Error transport connect[0m
+[0;32mI (35618) Cleinte_mqtt: datos enviados al servidor mqtt: 11.67 luz,18.19 temperatura,0.00 turbidez[0m
+[0;32mI (36078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (36578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (36718) sensor_temperatura: Temperatura: 18.19[0m
+[0;32mI (37078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (37578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (37838) sensor_temperatura: Temperatura: 18.19[0m
+[0;32mI (38078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (38578) Sensor_de_luz: Luz recibida: 11.67 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (38958) sensor_temperatura: Temperatura: 18.19[0m
+[0;32mI (39078) Sensor_de_luz: Luz recibida: 11.67 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (39578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (40078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+[0;32mI (40078) sensor_temperatura: Temperatura: 18.19[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (40578) Sensor_de_luz: Luz recibida: 11.67 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (40628) Cleinte_mqtt: datos enviados al servidor mqtt: 11.67 luz,18.19 temperatura,0.00 turbidez[0m
+[0;32mI (41078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (41188) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (41578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (42078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.02 | V_Real: 4.56 | NTU: 0.00
+[0;32mI (42308) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (42578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.47 | NTU: 0.00
+[0;32mI (43078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (43428) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (43578) Sensor_de_luz: Luz recibida: 11.67 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (44078) Sensor_de_luz: Luz recibida: 11.67 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (44548) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (44578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (45078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (45578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (45628) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,18.12 temperatura,0.00 turbidez[0m
+[0;32mI (45668) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (46078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (46578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (46788) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (47078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (47578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (47908) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (48078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.96 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (48578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (49018) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (49078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (49578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (50078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (50138) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (50578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[1;31mE (50618) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (50618) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (50618) mqtt_client: Error transport connect[0m
+[0;32mI (50628) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,18.12 temperatura,0.00 turbidez[0m
+[0;32mI (51078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (51258) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (51578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (52078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (52378) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (52578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (53078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (53498) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (53578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (54078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (54578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (54618) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (55078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (55578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (55638) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,18.06 temperatura,0.00 turbidez[0m
+[0;32mI (55738) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (56078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (56578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (56858) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (57078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (57578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (57968) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (58078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (58578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (59078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (59088) sensor_temperatura: Temperatura: 18.12[0m
+[0;32mI (59578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (60078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (60208) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (60578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (60638) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,18.06 temperatura,0.00 turbidez[0m
+[0;32mI (61078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (61328) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (61578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (62078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (62448) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (62578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (63078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (63568) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (63578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (64078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (64578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (64688) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (65078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (65578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[1;31mE (65628) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (65638) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (65638) mqtt_client: Error transport connect[0m
+[0;32mI (65638) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,18.06 temperatura,0.00 turbidez[0m
+[0;32mI (65798) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (66078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (66578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (66918) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (67078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (67578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (68038) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (68078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (68578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (69078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (69158) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (69578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (70078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (70278) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (70578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (70648) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,18.06 temperatura,0.00 turbidez[0m
+[0;32mI (71078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (71398) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (71578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (72078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (72518) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (72578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (73078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (73578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (73628) sensor_temperatura: Temperatura: 18.06[0m
+[0;32mI (74078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (74578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.02 | V_Real: 4.56 | NTU: 0.00
+[0;32mI (74748) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (75078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (75578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.96 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (75648) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,18.00 temperatura,0.00 turbidez[0m
+[0;32mI (75868) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (76078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (76578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (76988) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (77078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (77578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (78078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (78108) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (78578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (79078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (79228) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (79578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (80078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (80348) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (80578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[1;31mE (80648) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (80648) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (80648) mqtt_client: Error transport connect[0m
+[0;32mI (80658) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,18.00 temperatura,0.00 turbidez[0m
+[0;32mI (81078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (81458) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (81578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (82078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (82578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+[0;32mI (82578) sensor_temperatura: Temperatura: 18.00[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (83078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (83578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (83698) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (84078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (84578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (84818) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (85078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (85578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (85658) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,18.00 temperatura,0.00 turbidez[0m
+[0;32mI (85938) sensor_temperatura: Temperatura: 18.00[0m
+[0;32mI (86078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (86578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (87058) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (87078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (87578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (88078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.96 | V_Real: 4.47 | NTU: 0.00
+[0;32mI (88178) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (88578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (89078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (89288) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (89578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (90078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (90408) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (90578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (90658) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.94 temperatura,0.00 turbidez[0m
+[0;32mI (91078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (91528) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (91578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (92078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (92578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (92648) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (93078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (93578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (93768) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (94078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (94578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (94888) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (95078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (95578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[1;31mE (95668) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (95668) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (95668) mqtt_client: Error transport connect[0m
+[0;32mI (95678) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.94 temperatura,0.00 turbidez[0m
+[0;32mI (96008) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (96078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (96578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (97078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (97128) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (97578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (98078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (98238) sensor_temperatura: Temperatura: 17.94[0m
+[0;32mI (98578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (99078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (99358) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (99578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (100078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (100478) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (100578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (100678) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.88 temperatura,0.00 turbidez[0m
+[0;32mI (101078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (101578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (101598) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (102078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (102578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (102718) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (103078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (103578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (103828) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (104078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (104578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (104938) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (105078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (105578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (105678) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.88 temperatura,0.00 turbidez[0m
+[0;32mI (106058) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (106078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (106578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (107078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (107178) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (107578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (108078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (108298) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (108578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (109078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (109418) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (109578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (110078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (110538) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (110578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[1;31mE (110698) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (110698) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (110698) mqtt_client: Error transport connect[0m
+[0;32mI (110698) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.88 temperatura,0.00 turbidez[0m
+[0;32mI (111078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (111578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (111658) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (112078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (112578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (112778) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (113078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (113578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (113888) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (114078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (114578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (115008) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (115078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (115578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (115708) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.88 temperatura,0.00 turbidez[0m
+[0;32mI (115708) wifi:<ba-add>idx:1 (ifx:0, 1c:ae:cb:6d:5a:d8), tid:6, ssn:5, winSize:64[0m
+[0;32mI (116078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (116128) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (116578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (117078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (117248) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (117578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.01 | V_Real: 4.55 | NTU: 0.00
+[0;32mI (118078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (118368) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (118578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (119078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (119488) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (119578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (120078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (120578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (120608) sensor_temperatura: Temperatura: 17.88[0m
+[0;32mI (120708) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.88 temperatura,0.00 turbidez[0m
+[0;32mI (121078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (121578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (121718) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (122078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (122578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (122838) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (123078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (123578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (123958) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (124078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (124578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (125078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+[0;32mI (125078) sensor_temperatura: Temperatura: 17.81[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (125578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[1;31mE (125708) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (125708) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (125708) mqtt_client: Error transport connect[0m
+[0;32mI (125708) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.81 temperatura,0.00 turbidez[0m
+[0;32mI (126078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (126198) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (126578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (127078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (127318) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (127578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (128078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (128438) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (128578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (129078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (129548) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (129578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (130078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (130578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (130668) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (130718) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.75 temperatura,0.00 turbidez[0m
+[0;32mI (131078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (131578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (131788) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (132078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (132578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (132908) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (133078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (133578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (134028) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (134078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (134578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (135078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (135148) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (135578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (135718) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.75 temperatura,0.00 turbidez[0m
+[0;32mI (136078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (136268) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (136578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (137078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (137388) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (137578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (138078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (138498) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (138578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (139078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (139578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (139618) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (140078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (140578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[1;31mE (140708) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (140718) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (140718) mqtt_client: Error transport connect[0m
+[0;32mI (140718) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.75 temperatura,0.00 turbidez[0m
+[0;32mI (140738) sensor_temperatura: Temperatura: 17.81[0m
+[0;32mI (141078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (141578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (141858) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (142078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (142578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (142978) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (143078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (143578) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 3.02 | V_Real: 4.55 | NTU: 0.00
+[0;32mI (144078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (144098) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (144578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (145078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (145218) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (145578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (145728) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.75 temperatura,0.00 turbidez[0m
+[0;32mI (146078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (146328) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (146578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (147078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (147448) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (147578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (148078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (148568) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (148578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (149078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (149578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (149688) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (150078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (150578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (150728) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.75 temperatura,0.00 turbidez[0m
+[0;32mI (150808) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (151078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (151578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (151928) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (152078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (152578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (153048) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (153078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (153578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (154078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (154158) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (154578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (155078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (155278) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (155578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[1;31mE (155728) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (155738) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (155738) mqtt_client: Error transport connect[0m
+[0;32mI (155738) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.69 temperatura,0.00 turbidez[0m
+[0;32mI (156078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (156398) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (156578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (157078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (157518) sensor_temperatura: Temperatura: 17.75[0m
+[0;32mI (157578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (158078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (158578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (158638) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (159078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (159578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (159758) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (160078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (160578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (160748) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.69 temperatura,0.00 turbidez[0m
+[0;32mI (160878) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (161078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (161578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (161998) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (162078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (162578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (163078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (163108) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (163578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (164078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (164228) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (164578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (165078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (165348) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (165578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.55 | NTU: 0.00
+[0;32mI (165748) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.69 temperatura,0.00 turbidez[0m
+[0;32mI (166078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (166468) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (166578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (167078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (167578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.96 | V_Real: 4.47 | NTU: 0.00
+[0;32mI (167588) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (168078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (168578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (168708) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (169078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (169578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (169828) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (170078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (170578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.55 | NTU: 0.00
+[1;31mE (170738) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (170738) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (170738) mqtt_client: Error transport connect[0m
+[0;32mI (170748) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.69 temperatura,0.00 turbidez[0m
+[0;32mI (170938) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (171078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (171578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (172058) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (172078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (172578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (173078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (173178) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (173578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (174078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (174298) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (174578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (175078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (175418) sensor_temperatura: Temperatura: 17.69[0m
+[0;32mI (175578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (175758) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.69 temperatura,0.00 turbidez[0m
+[0;32mI (176078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.96 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (176538) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (176578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (177078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (177578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (177658) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (178078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (178578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.02 | V_Real: 4.56 | NTU: 0.00
+[0;32mI (178768) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (179078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (179578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (179888) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (180078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (180578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.47 | NTU: 0.00
+[0;32mI (180758) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.62 temperatura,0.00 turbidez[0m
+[0;32mI (181008) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (181078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (181578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (182078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (182128) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (182578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (183078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (183248) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (183578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (184078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (184368) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (184578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (185078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.02 | V_Real: 4.55 | NTU: 0.00
+[0;32mI (185488) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (185578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[1;31mE (185758) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (185758) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (185758) mqtt_client: Error transport connect[0m
+[0;32mI (185758) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.62 temperatura,0.00 turbidez[0m
+[0;32mI (186078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (186578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (186598) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (187078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (187578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (187708) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (188078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (188578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (188818) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (189078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (189578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (189938) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (190078) Sensor_de_luz: Luz recibida: 9.17 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (190578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (190768) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.62 temperatura,0.00 turbidez[0m
+[0;32mI (191058) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (191078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (191578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (192078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (192178) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (192578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (193078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (193298) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (193578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (194078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (194408) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (194578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (195078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (195528) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (195578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (195768) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.56 temperatura,0.00 turbidez[0m
+[0;32mI (196078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.55 | NTU: 0.00
+[0;32mI (196578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (196648) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (197078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (197578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (197768) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (198078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (198578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (198888) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (199078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (199578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (200008) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (200078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (200578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[1;31mE (200758) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (200758) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (200768) mqtt_client: Error transport connect[0m
+[0;32mI (200768) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.56 temperatura,0.00 turbidez[0m
+[0;32mI (201078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (201128) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (201578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (202078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (202238) sensor_temperatura: Temperatura: 17.62[0m
+[0;32mI (202578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (203078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (203358) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (203578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (204078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.47 | NTU: 0.00
+[0;32mI (204478) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (204578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (205078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (205578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (205598) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (205778) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.56 temperatura,0.00 turbidez[0m
+[0;32mI (206078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (206578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (206718) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (207078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (207578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (207838) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (208078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (208578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (208958) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (209078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (209578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (210068) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (210078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (210578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (210778) Cleinte_mqtt: datos enviados al servidor mqtt: 10.83 luz,17.56 temperatura,0.00 turbidez[0m
+[0;32mI (211078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (211188) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (211578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.47 | NTU: 0.00
+[0;32mI (212078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (212308) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (212578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (213078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (213428) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (213578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.55 | NTU: 0.00
+[0;32mI (214078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (214548) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (214578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (215078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (215578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (215668) sensor_temperatura: Temperatura: 17.56[0m
+[1;31mE (215778) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (215778) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (215778) mqtt_client: Error transport connect[0m
+[0;32mI (215778) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.56 temperatura,0.00 turbidez[0m
+[0;32mI (216078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.02 | V_Real: 4.56 | NTU: 0.00
+[0;32mI (216578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (216788) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (217078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (217578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (217908) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (218078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (218578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (219018) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (219078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (219578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (220078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (220138) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (220578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (220788) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.50 temperatura,0.00 turbidez[0m
+[0;32mI (221078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (221258) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (221578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (222078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (222378) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (222578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (223078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (223498) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (223578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (224078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (224578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (224618) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (225078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (225578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (225738) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (225788) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.56 temperatura,0.00 turbidez[0m
+[0;32mI (226078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (226578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (226848) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (227078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (227578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (227968) sensor_temperatura: Temperatura: 17.56[0m
+[0;32mI (228078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (228578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (229078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (229088) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (229578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.96 | V_Real: 4.47 | NTU: 0.00
+[0;32mI (230078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.48 | NTU: 0.00
+[0;32mI (230208) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (230578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[1;31mE (230778) esp-tls: [sock=54] delayed connect error: Connection reset by peer[0m
+[1;31mE (230778) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (230788) mqtt_client: Error transport connect[0m
+[0;32mI (230788) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.50 temperatura,0.00 turbidez[0m
+[0;32mI (231078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (231328) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (231578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (232078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.99 | V_Real: 4.51 | NTU: 0.00
+[0;32mI (232448) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (232578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.52 | NTU: 0.00
+[0;32mI (233078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (233568) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (233578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (234078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (234578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (234678) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (235078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (235578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (235798) Cleinte_mqtt: datos enviados al servidor mqtt: 10.00 luz,17.50 temperatura,0.00 turbidez[0m
+[0;32mI (235798) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (236078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.97 | V_Real: 4.49 | NTU: 0.00
+[0;32mI (236578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (236918) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (237078) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 3.00 | V_Real: 4.53 | NTU: 0.00
+[0;32mI (237578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 3.01 | V_Real: 4.54 | NTU: 0.00
+[0;32mI (238038) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (238078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (238578) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (239078) Sensor_de_luz: Luz recibida: 10.00 lux[0m
+V_ESP: 2.98 | V_Real: 4.50 | NTU: 0.00
+[0;32mI (239158) sensor_temperatura: Temperatura: 17.50[0m
+[0;32mI (239578) Sensor_de_luz: Luz recibida: 10.83 lux[0m
+V_ESP: 2.98 | V_Real: 4.51 | NTU: 0.00

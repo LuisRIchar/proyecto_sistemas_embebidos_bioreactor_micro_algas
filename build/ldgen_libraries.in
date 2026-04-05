@@ -163,6 +163,7 @@ $<TARGET_FILE:idf::wifi_provisioning>
 $<TARGET_FILE:__idf_json>
 $<TARGET_FILE:idf::nixy4__u8g2>
 $<TARGET_FILE:idf::gestor>
+$<TARGET_FILE:__idf_mqtt>
 $<TARGET_FILE:idf::actuadores>
 $<TARGET_FILE:__idf_nixy4__u8g2>
 $<TARGET_FILE:__idf_gestor>

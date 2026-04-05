@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "proyecto_micro_algas",
-    "project_version":    "3cc621a-dirty",
+    "project_version":    "8eced2e-dirty",
     "project_path":       "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas",
     "idf_path":           "C:/espressif/esp-idf-v5.5.3",
     "build_dir":          "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build",
@@ -1175,12 +1175,12 @@
             "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor",
             "type": "LIBRARY",
             "lib": "__idf_gestor",
-            "reqs": [ "driver" ],
+            "reqs": [ "driver", "mqtt", "esp_wifi", "esp_event", "esp_netif", "nvs_flash" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/build/esp-idf/gestor/libgestor.a",
-            "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor/gestor_datos.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor/I2c_bus_compartido.c" ],
+            "sources": [ "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor/gestor_datos.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor/I2c_bus_compartido.c", "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor/cliente_mqtt.c" ],
             "include_dirs": [ "." ]
         },
         "hal": {
@@ -3090,7 +3090,7 @@
             "prefix": "idf",
             "dir": "C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor",
             "lib": "__idf_gestor",
-            "reqs": [ "driver" ],
+            "reqs": [ "driver", "mqtt", "esp_wifi", "esp_event", "esp_netif", "nvs_flash" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],

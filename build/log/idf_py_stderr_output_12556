@@ -1,0 +1,68 @@
+Command: ninja all
+CMake Error at C:/espressif/esp-idf-v5.5.3/tools/cmake/component.cmake:231 (message):
+  CMake Warning (dev) at build_properties.temp.cmake:8:
+
+    Syntax Warning in cmake code at column 106
+
+  
+
+    Argument not separated from preceding token by whitespace.
+
+  Call Stack (most recent call first):
+
+    C:/espressif/esp-idf-v5.5.3/tools/cmake/scripts/component_get_requirements.cmake:3 (include)
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+
+
+  CMake Warning (dev) at
+  C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor/CMakeLists.txt:3:
+
+
+    Syntax Warning in cmake code at column 19
+
+  
+
+    Argument not separated from preceding token by whitespace.
+
+  Call Stack (most recent call first):
+
+    C:/espressif/esp-idf-v5.5.3/tools/cmake/scripts/component_get_requirements.cmake:107 (include)
+    C:/espressif/esp-idf-v5.5.3/tools/cmake/scripts/component_get_requirements.cmake:160 (__component_get_requirements)
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+
+
+  CMake Error at
+  C:/Personal/Codes/Code/C/esp-idf/EmbeddedSystemsRobotin/proyecto_micro_algas/componentes/gestor/CMakeLists.txt:5:
+
+
+    Parse error.  Function missing ending ")".  Instead found unterminated
+    string with text "
+
+  
+
+        REQUIRES driver mqtt_client esp_wifi
+
+  
+
+    )".
+
+  Call Stack (most recent call first):
+
+    C:/espressif/esp-idf-v5.5.3/tools/cmake/scripts/component_get_requirements.cmake:107 (include)
+    C:/espressif/esp-idf-v5.5.3/tools/cmake/scripts/component_get_requirements.cmake:160 (__component_get_requirements)
+
+  
+
+
+
+Call Stack (most recent call first):
+  C:/espressif/esp-idf-v5.5.3/tools/cmake/build.cmake:666 (__component_get_requirements)
+  C:/espressif/esp-idf-v5.5.3/tools/cmake/project.cmake:741 (idf_build_process)
+  CMakeLists.txt:11 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
